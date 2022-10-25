@@ -4,93 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineeths component library</title>
+    <title>Vineeth | Home</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-   <h1>vineeths project library</h1>
-   <p>creating this component library because all of my work be looking good and consistent</p>
-   <hr>
-   <h2>sub-headings can be written using h2 tag</h2>
-   <h2>@typography</h2>
-   <p>normal text uses paragraph tag</p> 
-   <small>small is used for making characters small, this all tags are used to make it effective for visually challenged people</small>
-   <hr>
-   <h2>@containers</h2>
-   <h3>fluid-containers</h3>
-   <div>this fluid container will go throughout the page</div>
-   <h3>center-container</h3>
-   <div>This container are focused on the center of the page or with specified width</div>
-   <hr>
-   <h2>@links</h2>
-   <a href="http://">Primary link</a>
-   <a href="http://">Secondary link</a>
-   <hr>
-   <h2>@lists</h2>
-   <h3>un-ordered list</h3>
-   <ul>
-    <li>First list</li>
-    <li>Second list</li>
-    <li>Third list</li>
-   </ul>
-   <h3>inline-list</h3>
-   <ul>
-    <li>inline-list 1</li>
-    <li>inline-list 2</li>
-    <li>inline-list 3</li>
-   </ul>
-   <h3>reverse order list</h3>
-   <ol>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-   </ol>
-   <hr>
-   <h2>@nav</h2>
-   <nav>
-    <div>My brand</div>
-    <ul>
-     <li>
-        <a href="">nav1</a>
-     </li>
-     <li>
-        <a href="">nav2</a>
-     </li>
-     <li>
-        <a href="">nav3</a>
-     </li>
-    </ul>
-   </nav>
-   <hr>
-   <h2>@heading</h2>
-   <header>
-    <img src="" alt="Header Image">
-    <h1>Heading inside hero</h1>
-   </header>
-   <hr>
-   <h2>@section</h2>
-   <section>
-    <h3>white section</h3>
-    <p>this will be white background with top and bottom padding</p>
-   </section>
-   <section>
-    <h3>off-white section</h3>
-    <p>this is section with grey background</p>
-   </section>
-   <hr>
-   <h2>@footer</h2>
-   <footer>
-    <div>small heading inside footer</div>
-    <ul>
-        <li>
-            <a href="">social-1</a>
-        </li>
-        <li>
-            <a href="">social-2</a>
-        </li>
-        <li>
-            <a href="">social-3</a>
-        </li>
-    </ul>
-   </footer>
+    <nav class="navigation containers">
+        <div class="nav-brand">Iam Vineeth</div>
+        <ul class="non-bllet nav-pills">
+          <li class="lis-item-inline">
+            <a class="link link-active" href="">Home</a>
+          </li>
+          <li class="lis-item-inline">
+            <a class="link" href="/lib/projects.html">Projects</a>
+          </li>
+          <li class="lis-item-inline">
+            <a class="link" href="/lib/projects.html">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+      <header class="hero">
+        <img class="hero-img" src="\images\programming.svg" alt="Header Image" />
+        <h1 class="hero-heading">Hello!! This is Vineeth the <span class="hero-span">web developer</span></h1>
+      </header>
+      <section class="section ow">
+        <div class="containers container-center">
+            <h1>My skills</h1>
+            <p>HTML5 , CSS3, JavaScript, Remix, SCSS, JIRA, GIT || Bitbucket</p>
+            <p>Listening and speaking</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="containers container-center padding-sl">
+            <h1>Projects</h1>
+            <p>Published some projects which i did while learning above skills, have a look and let me know where can i improve....</p>
+            <a class="link link-primary padding-sl" href="/lib/projects.html"> My Projects </a>
+        </div>
+    </section>
+    <section class="section ow margin-md">
+        <div class="containers container-center">
+            <h1>My Blogs</h1>
+            <p>Planning to publish what i learn, checkout this section to read some useful stuffs</p>
+            <a class="link link-secondary" href="/lib/blogs.html">MY Blogs</a>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-heading">My social media profiles</div>
+        <ul class="footer-social non-bllet">
+            <li class="lis-item-inline social">
+                <a class="link" href="">Twitter</a>
+            </li>
+            <li class="lis-item-inline social">
+                <a class="link" href="">Github</a>
+            </li>
+            <li class="lis-item-inline social">
+                <a class="link" href="">Linkedin</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
