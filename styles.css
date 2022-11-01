@@ -10,8 +10,17 @@ body {
     color: var(--font-color);
 }
 
+h1 {
+    margin: 0;
+}
+
 hr {
     margin: 1rem 0rem;
+}
+
+.intro {
+    text-align: center;
+    /* margin: auto; */
 }
 
 .containers {
@@ -25,6 +34,7 @@ hr {
 /* link-ccs */
 .link {
     text-decoration: none;
+    margin: 1rem;
     padding: 0.5rem 1rem;
     color: var(--font-color);
 }
@@ -42,10 +52,10 @@ hr {
 }
 
 /* list css */
-.non-bllet {
+.non-bullet {
     list-style: none;
 }
-.lis-item-inline {
+.list-item-inline {
     display: inline;
     padding: 0 0.5rem;
 }
@@ -91,6 +101,11 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
+}
+
+.section .link {
+    margin-top: 1rem;
 }
 .section h1 {
     text-align: center;
@@ -98,6 +113,7 @@ hr {
 
 .ow {
     background-color: var(--section-background) ;
+    border-radius: 1rem;
 }
 
 .footer {
@@ -112,9 +128,23 @@ hr {
 }
 
 .margin-md {
-    margin: 5rem 0rem;
+    margin: 3rem 0rem;
 }
 
 .padding-sl {
     border: 1rem;
+}
+
+#projects-heading {
+    max-width: 600px;
+    text-align: center;
+    padding-left: 93px;
+}
+
+#project-heading-span {
+    color: var(--primary-color);
+}
+
+.section-discription {
+    text-align: justify;
 }
