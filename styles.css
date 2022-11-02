@@ -106,7 +106,7 @@ hr {
 .section .link {
     margin-top: 1rem;
 }
-.section h1 {
+.section h1,h2 {
     text-align: center;
 }
 
@@ -146,3 +146,41 @@ hr {
 .section-discription {
     text-align: justify;
 }
+
+.project,
+.blog {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project .heading,
+.blog .heading {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  letter-spacing: var(--letterSpacing);
+  font-weight: 700;
+  color: var(--primary-800);
+}
+
+.project .date,
+.blog .date {
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--grey-500);
+}
+
+.project p,
+.blog p {
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  letter-spacing: var(--letterSpacing);
+}
+.grey-background {
+    background: var(--section-background);
+    border-radius: 1.5rem;
+  }
